@@ -15,9 +15,9 @@ public class AmbienceConfig {
 
     public boolean enabled = true;
     public boolean customTime = false;
-    public int time = 18000; // Закат
+    public int time = 18000;
     public boolean customFog = false;
-    public String fogColor = "#FFD700"; // Золотой
+    public String fogColor = "#FFD700";
 
     public static AmbienceConfig load() {
         if (CONFIG_FILE.exists()) {
